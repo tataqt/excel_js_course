@@ -1,0 +1,28 @@
+{
+  "name": "exel_js_course",
+  "version": "1.0.0",
+  "description": "Pure javascript exel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tataqt/exel_js_course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "exel"
+  ],
+  "author": "Tata <tata_98@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tataqt/exel_js_course/issues"
+  },
+  "homepage": "https://github.com/tataqt/exel_js_course#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
