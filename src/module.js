@@ -1,6 +1,6 @@
 console.log('module.js');
 
 async function name() {
-    await Promise.resolve()
+    return await Promise.resolve('async working')
 }
-name()
+name().then(console.log)
