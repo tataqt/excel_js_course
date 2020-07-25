@@ -11,7 +11,7 @@
     align-items: center;
     border-bottom: 1px solid $border-color;
 
-    & .exel__formula-info {
+    &-info {
         font-size: 18px;
         text-align: center;
         font-style: italic;
@@ -19,7 +19,7 @@
         min-width: $info-cell-width;
     }
 
-    & .exel__formula-input {
+    &-input {
         padding: 4px;
         font-size: 12px;
         outline: none;

@@ -9,14 +9,14 @@
     overflow-x: auto;
     padding-bottom: 2px;
 
-    .exel__table-row {
+    &-row {
         display: flex;
         flex-direction: row;
         min-height: 20px;
         height: $row-height;
     }
 
-    .exel__table-row-info {
+    &-row-info {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -27,12 +27,12 @@
         border-top: none;
     }
 
-    .exel__table-row-data {
+    &-row-data {
         display: flex;
 
     }
 
-    .exel__table-column{
+    &-column{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,7 +46,7 @@
     }
 
 
-    .exel__table-cell {
+    &-cell {
         min-width: 40px;
         padding: 5px;
         width: $cell-width;

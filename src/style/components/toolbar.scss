@@ -12,7 +12,7 @@
     padding: 7px 10px;
     display: flex;
 
-    .exel__toolbar-button {
+    &-button {
         @include button(green);
     }
 }

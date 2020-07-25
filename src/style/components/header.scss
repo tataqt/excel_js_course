@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
 
-    & .exel__header-input {
+    &-input {
         margin: 0;
         padding: 2px 7px;
         color: #000;
@@ -32,7 +32,7 @@
         }
 
     }
-    & .exel__header-button {
+    &-button {
         @include button(red);
     }
 }
