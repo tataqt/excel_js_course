@@ -14,72 +14,39 @@
 <body>
 
   <div id="app" class="container">
+    <div class="db">
+      <div class="db__header">
+        <h1>Excel Dashboard</h1>
+      </div>
 
-    <div class="exel">
-
-      <div class="exel__header">
-        <input type="text" class="exel__header-input" value="Новая таблица" />
-        <div>
-          <div class="exel__header-button">
-            <i class="material-icons">delete</i>
-          </div>
-          <div class="exel__header-button">
-            <i class="material-icons">exit_to_app</i>
-          </div>
+      <div class="db__new">
+        <div class="db__view">
+          <a href="#" class="db__new-create">
+            Новая <br />таблица
+          </a>
         </div>
       </div>
 
-      <div class="exel__toolbar">
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_align_left</i>
+      <div class="db__table db__view">
+        <div class="db__list-header">
+          <span>Название</span>
+          <span> Дата открытия</span>
         </div>
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_align_center</i>
-        </div>
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_align_right</i>
-        </div>
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_bold</i>
-        </div>
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_italic</i>
-        </div>
-        <div class="exel__toolbar-button">
-          <i class="material-icons">format_underline</i>
-        </div>
-      </div>
-
-      <div class="exel__formula">
-        <div class="exel__formula-info">fx</div>
-        <div class="exel__formula-input" contenteditable spellcheck="false"></div>
-      </div>
-
-      <div class="exel__table">
-        <div class="exel__table-row">
-          <div class="exel__table-row-info"></div>
-          <div class="exel__table-row-data">
-            <div class="exel__table-column">A</div>
-            <div class="exel__table-column">B</div>
-            <div class="exel__table-column">C</div>
-          </div>
-        </div>
-
-        <div class="exel__table-row">
-          <div class="exel__table-row-info">1</div>
-          <div class="exel__table-row-data">
-            <div class="exel__table-cell selected" contenteditable>A1</div>
-            <div class="exel__table-cell" contenteditable>B1</div>
-            <div class="exel__table-cell" contenteditable>C1</div>
-          </div>
-        </div>
-        <div class="exel__table-row">
-          <div class="exel__table-row-info">2</div>
-          <div class="exel__table-row-data">
-            <div class="exel__table-cell" contenteditable>A2</div>
-            <div class="exel__table-cell" contenteditable>B2</div>
-            <div class="exel__table-cell" contenteditable>C2</div>
-          </div>
+        <div class="db__list">
+          <ul>
+            <li class="db__record">
+              <a href="#">Таблица номер 1</a>
+              <strong>12.06.2020</strong>
+            </li>
+            <li class="db__record">
+              <a href="#">Таблица номер 2</a>
+              <strong>12.06.2020</strong>
+            </li>
+            <li class="db__record">
+              <a href="#">Таблица номер 3</a>
+              <strong>12.06.2020</strong>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
