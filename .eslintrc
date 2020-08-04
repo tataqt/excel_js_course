@@ -13,7 +13,9 @@
         "indent": "off",
         "linebreak-style": "off",
         "require-jsdoc": "off",
-        "quotes": "off"
+        "quotes": "off",
+        "eol-last": "off",
+        "max-len": "off"
     },
     "extends": [
         "eslint:recommended",
