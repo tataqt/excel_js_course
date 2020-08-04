@@ -12,7 +12,10 @@
         "object-curly-spacing": "off",
         "indent": "off",
         "linebreak-style": "off",
-        "require-jsdoc": "off"
+        "require-jsdoc": "off",
+        "quotes": "off",
+        "eol-last": "off",
+        "max-len": "off"
     },
     "extends": [
         "eslint:recommended",
