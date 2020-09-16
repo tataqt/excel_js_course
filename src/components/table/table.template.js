@@ -13,13 +13,13 @@ function toColumn(element) {
     return `
         <div class="excel__table-column">
             ${element}
-            <div class="col-resize"></div>
+            <div class="col-resize" data-resize="col"></div>
         </div>
     `
 }
 
 function createRow(content, index) {
-    const resizer = index ? `<div class="row-resize"></div>` : '';
+    const resizer = index ? `<div class="row-resize" data-resize="row"></div>` : '';
     return `
         <div class="excel__table-row">
             <div class="excel__table-row-info">
